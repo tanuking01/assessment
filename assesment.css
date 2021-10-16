@@ -1,0 +1,22 @@
+body{
+    background-color: #04a6eb;
+    color: #fdffff;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button{
+    padding: 5px 20px;
+    /*padding->対象の内側の余白を設定*/
+    background-color: #337ab7;
+    border-style: none;
+    /*border-style->要素の境界線 "dotted","inset"とかある "上 下 左 右"の順で設定できる*/
+    /*押せるボタンっぽくするならoutset?ダサいなぁとは思う*/
+    color: #fdffff;
+}
+
+input{
+    height:20px;
+    /*webページの入力欄ってheight20pxぐらいが普通なんかなぁ*/
+}
